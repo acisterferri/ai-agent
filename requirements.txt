@@ -1,0 +1,7 @@
+google-cloud-secret-manager
+langgraph 
+langchain 
+python-dotenv
+google-genai
+langchain-google-genai
+google-auth

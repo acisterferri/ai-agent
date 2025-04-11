@@ -7,7 +7,6 @@ def create_workflow() -> StateGraph:
 
     # Add nodes
     workflow.add_node("extract_text_from_url", extract_text_from_url_node)
-    workflow.add_node("decision_node", decision_node)
     workflow.add_node("classification_node", classification_node)
     workflow.add_node("entity_extraction", entity_extraction_node)
     workflow.add_node("summarization", summarize_node)

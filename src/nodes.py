@@ -47,7 +47,7 @@ def decision_node(state: State):
     Returns:
         dict: A dictionary indicating whether to continue or stop the workflow.
     """
-    if state.get("success", False):
+    if state.get("success", True):
         return "continue"
     else:
         return "end"
